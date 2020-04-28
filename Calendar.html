@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="Calendar.css">
+</head>
+<body>
+<div class="container">
+  
+  <div class="my-calendar clearfix">
+    <div class="clicked-date">
+      <div class="cal-day"></div>
+      <div class="cal-date"></div>
+    </div>
+    <div class="calendar-box">
+      <div class="ctr-box clearfix">
+        <button type="button" title="prev" class="btn-cal prev">
+        </button>
+        <span class="cal-year"></span>
+        <span class="cal-month"></span>
+        <button type="button" title="next" class="btn-cal next">
+        </button>
+      </div>
+      <table class="cal-table">
+        <thead>
+          <tr>
+            <th>日</th>
+            <th>月</th>
+            <th>火</th>
+            <th>水</th>
+            <th>木</th>
+            <th>金</th>
+            <th>土</th>
+          </tr>
+        </thead>
+        <tbody class="cal-body"></tbody>
+      </table>
+    </div>
+  </div>
+</div>
+</body>
+<footer>
+  <script type="text/javascript" src="Calendar.js"></script>
+</footer>
+</html>
